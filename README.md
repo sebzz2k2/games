@@ -7,7 +7,7 @@
 
 - Tic-Tac-Toe - A simple tic-tac-toe game. The game is over when either of the players gets 3 consecutive X's or O's.
 
-  - status - not complete
+  - status - complete
   - language - ReactJS
 
 - Wack-A-Mole - A simple wack-a-mole game. The game is over when the player misses 3 moles.
