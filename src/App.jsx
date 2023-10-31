@@ -2,6 +2,7 @@
 import './App.css'
 import SnakeGame from './Games/Snake/SnakeGame'
 import { BrowserRouter, Route, Routes, NavLink } from "react-router-dom";
+import TicTacToeGame from './Games/TicTacToe/TicTacToeGame';
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/snake" element={<SnakeGame />} />
         <Route path="/wack-a-mole" element={<CommingSoon />} />
-        <Route path="/tic-tac-toe" element={<CommingSoon />} />
+        <Route path="/tic-tac-toe" element={<TicTacToeGame />} />
       </Routes>
     </BrowserRouter>
   )
