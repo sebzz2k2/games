@@ -13,3 +13,5 @@
 - Wack-A-Mole - A simple wack-a-mole game. The game is over when the player misses 3 moles.
   - status - not complete
   - language - ReactJS
+
+### Live Demo - https://games-sebin.netlify.app/
