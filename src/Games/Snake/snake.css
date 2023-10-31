@@ -1,0 +1,22 @@
+.gradient-board {
+  background: linear-gradient(to bottom, #28313b, #485461);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.food {
+  animation: grow 1s linear infinite;
+}
+@keyframes grow {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  75% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}

@@ -1,0 +1,28 @@
+.home {
+  background-color: #111;
+  height: 100vh;
+  color: #fff;
+}
+.header {
+  font-size: medium;
+  padding: 20px;
+  height: 32px;
+  color: #fff;
+}
+.divider {
+  height: 1px;
+  background-color: #fff;
+  margin: 20px 0;
+}
+.gameList {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+}
+.navLink {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
